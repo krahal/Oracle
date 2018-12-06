@@ -34,7 +34,7 @@ def getNNParameters():
         nn_params.append(1)
         nn_params.append(0)
 
-    nn_params.append(form_params['creditScore'])
+    nn_params.append(form_params['creditScore']) 
     nn_params.append(form_params['gender'])
     nn_params.append(form_params['age'])
     nn_params.append(form_params['tenure'])
